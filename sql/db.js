@@ -6,6 +6,7 @@ const pool = mysql.createPool({
   port: 3306,
   user: 'xqk',
   password: '1379502663.sx',
+  database: 'sales_order',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
